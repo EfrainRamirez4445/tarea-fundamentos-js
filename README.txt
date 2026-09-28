@@ -32,6 +32,6 @@ Visual Studio Code, navegador Microsoft Edge, Git y GitHub.
 
 Repositorio de GitHub
 ---------------------
-(pegar aqui el enlace al terminar)
+https://github.com/EfrainRamirez4445/tarea-fundamentos-js
 
 Autor: Efrain Ramirez Torres
