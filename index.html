@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+  CARACTERÍSTICAS DE HTML5 EN ESTE ARCHIVO:
+  1. <!DOCTYPE html> declara que es HTML5.
+  2. lang="es" indica el idioma de la página.
+  3. meta charset="UTF-8" permite acentos y caracteres especiales.
+  4. meta viewport hace la página responsiva en móviles.
+  5. Etiquetas semánticas: header, nav, main, section, article, footer.
+  6. <script src> enlaza el JavaScript externo.
+
+  Repositorio de GitHub: (lo pegaremos al final)
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundamentos de JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <img src="imagenes/logo.svg" alt="Logo con las letras JS" width="64" height="64">
+    <h1>Fundamentos de JavaScript</h1>
+    <p>Laboratorio del módulo 6. Abre la consola (F12) para ver la salida.</p>
+  </header>
+
+  <nav>
+    <a href="#basicos">Conceptos básicos</a>
+    <a href="#control">Control y funciones</a>
+    <a href="#alcance">Alcance y clausuras</a>
+    <a href="#pruebas">Pruebas</a>
+  </nav>
+
+  <main>
+    <section id="basicos">
+      <h2>Conceptos básicos</h2>
+      <article><pre id="salida-basicos"></pre></article>
+    </section>
+
+    <section id="control">
+      <h2>Estructuras de control y funciones</h2>
+      <article><pre id="salida-control"></pre></article>
+    </section>
+
+    <section id="alcance">
+      <h2>Alcance y clausuras</h2>
+      <article><pre id="salida-alcance"></pre></article>
+    </section>
+
+    <section id="pruebas">
+      <h2>Pruebas y experimentación</h2>
+      <article>
+        <label for="nota">Calificación</label>
+        <input id="nota" type="number" min="0" max="100" value="85">
+        <button id="btn-probar" type="button">Probar</button>
+        <button id="btn-contador" type="button">Sumar al contador</button>
+        <pre id="salida-pruebas">Aún no hay resultados.</pre>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tarea de Front-End Technologies and User Interface (UI)</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
